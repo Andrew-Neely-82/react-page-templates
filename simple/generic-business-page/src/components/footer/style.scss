@@ -1,0 +1,26 @@
+.Footer__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  // height: 100%;
+  width: 100%;
+  color: white;
+
+  .Footer__top {
+    background: gray;
+    padding: 2em 1em;
+
+    span {
+    }
+  }
+  .Footer__bottom {
+    background: rgba(0 0 0 / 0.7);
+    padding: 1em;
+
+    span {
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

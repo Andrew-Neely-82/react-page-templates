@@ -1,0 +1,20 @@
+.LeftBar__ {
+  height: calc(100vh - 40px);
+  width: 15rem;
+  background: lightgray;
+  padding-left: 1em;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}

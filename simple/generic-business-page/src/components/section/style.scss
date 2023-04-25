@@ -1,0 +1,61 @@
+@import "../../scss/variables";
+@import "../../scss/functions";
+
+.Section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 100%;
+
+  .Section__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    margin: 1rem 0;
+
+    .Section__content-container {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-family: font(title), sans-serif;
+        letter-spacing: -1px;
+        color: rgb(90, 150, 150);
+      }
+
+      span {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .Section__wrapper-ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .Section__wrapper-ads-small,
+    .Section__wrapper-ads-large {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid lightgray;
+    }
+
+    .Section__wrapper-ads-small,
+    .Section__wrapper-ads-large {
+      height: 4rem;
+      width: 20rem;
+      margin: 0.5em auto;
+    }
+
+    .Section__wrapper-ads-small {
+    }
+
+    .Section__wrapper-ads-large {
+      height: 7rem;
+    }
+  }
+}
