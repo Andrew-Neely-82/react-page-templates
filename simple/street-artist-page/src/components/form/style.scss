@@ -1,0 +1,25 @@
+.Form__ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  label,
+  .submit {
+    margin: 1em 0 0 0;
+  }
+
+  input {
+    height: 33px;
+    width: 75%;
+    border: 1px solid lightgray;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  .submit {
+    color: white;
+    background: gray;
+    padding: 0.5rem 0;
+  }
+}
