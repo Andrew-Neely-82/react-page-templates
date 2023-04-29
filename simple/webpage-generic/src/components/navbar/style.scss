@@ -1,0 +1,28 @@
+.navbar {
+  background-color: black !important;
+  padding: 0;
+
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+
+    .navbar-brand {
+      height: 100%;
+      background-color: gray;
+      padding-top: auto;
+      padding-right: 0.5em;
+      padding-bottom: auto;
+      padding-left: 0.5em;
+      margin: 0;
+    }
+    .collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
