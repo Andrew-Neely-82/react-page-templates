@@ -5,8 +5,9 @@
   align-items: center;
   background: #f44336;
   color: white;
-  padding: 128px 16px;
-
+  padding-top: calc(64px + 51px);
+  padding-bottom: 64px;
+  
   .Start__title {
     font-size: 64px;
     font-weight: 400;
