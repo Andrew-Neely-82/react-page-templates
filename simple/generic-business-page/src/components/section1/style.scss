@@ -1,3 +1,5 @@
+@import "../../scss/variables";
+
 .Section1__ {
   display: flex;
   justify-content: center;
@@ -11,7 +13,15 @@
     float: left;
 
     h1 {
+      font-family: map-get($font, mont), sans-serif;
+      font-weight: 100;
       font-size: 36px;
+    }
+
+    h5,
+    p {
+      font-family: map-get($font, lato), sans-serif;
+      line-height: 1.5;
     }
 
     h5 {
@@ -39,6 +49,29 @@
       font-size: 200px;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Section1__ {
+    flex-direction: column;
+
+    .Section1__content-container {
+      h1 {
+      }
+
+      h5 {
+      }
+
+      p {
+      }
+    }
+
+    .Section1__-svg-container {
+      i {
+        padding-block: 64px;
+      }
     }
   }
 }

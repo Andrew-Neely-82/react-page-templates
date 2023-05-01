@@ -1,3 +1,5 @@
+@import "../../scss/variables";
+
 .Footer__ {
   display: flex;
   justify-content: center;
@@ -8,6 +10,7 @@
   margin: 15px 0;
 
   span {
+    font-family: map-get($font, lato), sans-serif;
     a {
       color: black;
     }
