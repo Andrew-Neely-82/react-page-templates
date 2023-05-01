@@ -1,4 +1,4 @@
-@import '../../scss/variables';
+@import "../../scss/variables";
 
 .navbar {
   position: fixed;
@@ -18,9 +18,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100% !important;
+      height: 100%;
       background: white;
-      font-family: map-get($font, mont );
+      font-family: map-get($font, mont);
+      font-size: 18px;
       padding: 12px 24px !important;
       margin: 0 0 !important;
     }
@@ -30,8 +31,7 @@
       outline: none;
 
       .navbar-toggler-icon {
-        fill: white !important;
-        outline: none;
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
       }
     }
 
@@ -39,6 +39,7 @@
       .navbar-nav {
         padding: 0 !important;
         margin: 0 !important;
+        outline: none !important;
         .nav-item {
           height: 100%;
           padding: 0 !important;
@@ -46,9 +47,11 @@
 
           .nav-link {
             height: 100%;
-            color: white;
-            padding: 12px 24px !important;
-            margin: 0 !important;
+            color: black;
+            font-family: map-get($font, lato), sans-serif;
+            font-size: 18px;
+            padding: 12px 24px;
+            margin: 0;
 
             &:hover {
               background: white;
@@ -58,6 +61,11 @@
           }
         }
       }
+    }
+
+    .navbar-collapse {
+      background: #fff !important;
+      color: #000 !important;
     }
   }
 }

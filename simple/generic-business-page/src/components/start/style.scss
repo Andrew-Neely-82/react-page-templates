@@ -1,3 +1,5 @@
+@import "../../scss/variables";
+
 .Start__ {
   display: flex;
   flex-direction: column;
@@ -5,16 +7,25 @@
   align-items: center;
   background: #f44336;
   color: white;
-  padding-top: calc(64px + 51px);
-  padding-bottom: 64px;
-  
+  font-family: map-get($font, mont), sans-serif;
+  text-align: center !important;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 128px 16px;
+
   .Start__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     font-size: 64px;
     font-weight: 400;
-    margin: 0 0 8px;
+    margin: 16px;
   }
-
+  
   .Start__p {
+    width: 100%;
+    font-family: map-get($font, lato), sans-serif;
     font-size: 24px;
     margin-block: 24px;
   }
