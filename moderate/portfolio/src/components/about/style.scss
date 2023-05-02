@@ -1,0 +1,46 @@
+@import "../../scss/component";
+
+.About__ {
+  @include flexCenter();
+  flex-direction: column;
+  background: color(cyan);
+  height: 700px;
+  color: white;
+  padding: calc(0.01em + 64px) 16px;
+
+  .About__header {
+    @include flexCenter();
+    width: 100%;
+
+    h1 {
+      font-family: font(segoe);
+      font-size: 36px;
+      font-weight: normal;
+      margin: 10px auto;
+    }
+  }
+
+  .About__image {
+    @include flexCenter();
+    width: 100%;
+
+    img {
+      width: 50%;
+      border: none;
+      border-radius: 100%;
+      margin: 16px;
+    }
+  }
+
+  .About__info {
+    width: 100%;
+    padding: 12px 24px;
+
+    p {
+      font-family: font(verdana);
+      font-size: 15px;
+      line-height: 1.5;
+      margin-top: 15px;
+    }
+  }
+}

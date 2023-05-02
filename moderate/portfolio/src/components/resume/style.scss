@@ -1,0 +1,53 @@
+@import "../../scss/component";
+
+.Resume__ {
+  background: color(blue);
+  color: white;
+  padding: 64px 16px;
+
+  .Resume__header {
+    @include flexCenter;
+    flex-direction: column;
+
+    h2,
+    p {
+      @include flexCenter;
+      width: 100%;
+    }
+
+    h2 {
+      font: 400 30px font(segoe);
+      margin: 10px 0;
+    }
+
+    p {
+      font: 15px font(verdana);
+      margin: 15px 0;
+    }
+  }
+
+  .Resume__table {
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    font: 15px font(verdana);
+    padding: 0 16px;
+
+    .Resume__table-title {
+      color: white;
+      font-weight: bold;
+    }
+
+    .white {
+      background-color: white;
+      color: black;
+    }
+
+    .pad8 {
+      padding: 8px;
+    }
+
+    .pad8-16 {
+      padding: 8px 8px 8px 16px;
+    }
+  }
+}

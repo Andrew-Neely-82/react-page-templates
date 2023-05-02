@@ -1,0 +1,82 @@
+@import "../../scss//component";
+
+.Contact__ {
+  height: 700px !important;
+  background: color(green);
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0.01em 16px;
+
+  .Contact__container {
+    width: 100%;
+    padding: 64px 24px;
+
+    .Contact__container_heading,
+    .Contact__container_p {
+      width: 100%;
+      line-height: 1.5;
+    }
+
+    .Contact__container_heading {
+      font: 36px font(segoe);
+      font-weight: 400;
+      margin: 10px 0 0;
+    }
+
+    .Contact__container_p {
+      font-family: Verdana, sans-serif;
+      font-size: 15px;
+      opacity: 0.6;
+      margin: 15px 0;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    color: black;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 32px 16px;
+
+    .Contact__container-input {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 16px 0;
+
+      label {
+        font: 15px font(verdana);
+      }
+
+      .input {
+        font-size: 15px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding: 8px;
+      }
+    }
+
+    .Contact__button-container {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      .button {
+        background: color(green);
+        color: white;
+        font: 15px font(verdana);
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+
+        &:hover {
+          background: #ccc;
+          color: black;
+        }
+      }
+    }
+  }
+}

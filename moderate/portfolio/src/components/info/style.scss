@@ -1,0 +1,27 @@
+@import "../../scss/component";
+
+.Info__ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: color(gray);
+  color: white;
+
+  .Info__title {
+    width: 100%;
+    font: 36px font(segoe);
+    text-align: center;
+    padding: 64px 0;
+    margin: 10px 0;
+  }
+
+  .Info__p {
+    font: 15px font(verdana);
+    margin: 15px 0 0;
+    line-height: 1.5;
+  }
+
+  .one {
+    padding-top: 64px;
+  }
+}

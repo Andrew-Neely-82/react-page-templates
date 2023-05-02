@@ -1,0 +1,39 @@
+$color: (
+  blue: #3f51b5,
+  brown: #795548,
+  cyan: #607d8b,
+  gray: #616161,
+  green: #009688,
+);
+
+$font: (
+  segoe: "Segoe UI",
+  verdana: "Verdana",
+);
+
+$flexbox: (
+  flex: flex,
+  grid: grid,
+  block: block,
+  inline: inline,
+  inline-flex: inline-flex,
+  none: none,
+
+  row: row,
+  row-reverse: row-reverse,
+  column: column,
+  column-reverse: column-reverse,
+
+  center: center,
+  flex-start: flex-start,
+  flex-end: flex-end,
+  space-between: space-between,
+  space-around: space-around,
+  space-evenly: space-evenly,
+
+  stretch: stretch,
+  baseline: baseline,
+
+  wrap: wrap,
+  nowrap: nowrap,
+);
