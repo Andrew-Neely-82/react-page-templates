@@ -3,19 +3,26 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="App_">
-      <Header />
-      <div className="App_left-side">
-        <Article1 />
-        <Article2 />
-      </div>
-      <div className="App_right-side">
-        <Bio />
-        <Posts />
-        <Tags />
+    <>
+      <div className="App_">
+        <Header />
+        <div className="App_main-content">
+          <div className="App_left-side">
+            <Article1 />
+            <hr />
+            <Article2 />
+          </div>
+          <div className="App_right-side">
+            <Bio />
+            <hr />
+            <Posts />
+            <hr />
+            <Tags />
+          </div>
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

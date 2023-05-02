@@ -1,0 +1,24 @@
+@import "../../scss/component";
+
+.Bio_ {
+  background: white;
+
+  .Bio_img {
+    width: 100%;
+  }
+  
+  .Bio_container {
+    padding: 0.01em 16px;
+
+    .Bio_container_title {
+      font: 20px font(rale);
+      font-weight: bold;
+      margin: 10px auto;
+    }
+    .Bio_container_info {
+      font: 15px font(rale);
+      line-height: 1.5;
+      margin: 15px auto;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../scss/component";
+
+.Header_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 32px 16px;
+
+  .Header_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font: 36px font(rale);
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px auto;
+  }
+
+  .Header_description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font: 15px font(rale);
+    line-height: 1.5;
+    margin: 15px auto;
+
+    .Header_description_highlight {
+      display: inline-block;
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 0 8px;
+    }
+  }
+}

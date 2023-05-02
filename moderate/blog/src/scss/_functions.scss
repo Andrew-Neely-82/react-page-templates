@@ -9,5 +9,5 @@
 }
 
 @function font($input) {
-  @return map-get($font, $input);
+  @return map-get($font, $input), sans-serif;
 }
