@@ -1,0 +1,10 @@
+@import "./variables";
+@import "./functions";
+
+* {
+  font: 16px font(poppins);
+  line-height: 1.5 !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

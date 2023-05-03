@@ -1,0 +1,13 @@
+@import "./variables";
+
+@function map($map, $key) {
+  @return map-get($map, $key);
+}
+
+@function font($value) {
+  @return map($font, $value), sans-serif;
+}
+
+@function color($value) {
+  @return map($color, $value);
+}
