@@ -5,6 +5,23 @@
   font: 16px font(poppins);
   line-height: 1.5 !important;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+}
+
+p {
+  margin: 16px 0 !important;
+}
+
+hr {
+  width: 50px !important;
+  border: 5px solid color(orange);
+  border-radius: 4px;
+  box-sizing: content-box;
+  margin: 20px 0;
+}
+
+.bold {
+  font-weight: bold;
 }

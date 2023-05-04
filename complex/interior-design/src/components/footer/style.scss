@@ -1,0 +1,18 @@
+@import "../../scss/components";
+
+.Footer_ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: color(gray);
+  padding: 32px 58px 32px 16px;
+  margin: 75px 0 0;
+
+  span {
+    margin: 16px 0;
+
+    a {
+      color: black;
+    }
+  }
+}

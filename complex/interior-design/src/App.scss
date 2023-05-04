@@ -2,5 +2,10 @@
 @import "./scss/functions";
 
 .App_ {
+  display: flex;
 
+  .App_wrapper-right {
+    margin-left: 340px;
+    margin-right: 40px;
+  }
 }

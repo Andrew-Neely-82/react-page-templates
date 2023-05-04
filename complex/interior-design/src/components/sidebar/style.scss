@@ -1,0 +1,45 @@
+@import "../../scss/components";
+
+.Sidebar_ {
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  background: color(orange);
+  font-weight: bold;
+  padding: 8px 16px;
+  z-index: 3;
+
+  br {
+    line-height: 1.5;
+  }
+
+  .Sidebar_title-container {
+    padding: 0.01em 16px;
+
+    h3 {
+      color: white;
+      font-size: 24px;
+      font-weight: bolder;
+      padding: 64px 0;
+      margin: 10px 0;
+    }
+  }
+
+  .Sidebar_links-container {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: white;
+      font-size: 18px;
+      font-weight: bolder;
+      text-decoration: none;
+      padding: 8px 16px;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+  }
+}

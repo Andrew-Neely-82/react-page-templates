@@ -3,16 +3,22 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="App_">
-      <Sidebar />
-      <Heading />
-      <Collage />
-      <Services />
-      <Designers />
-      <Packages />
-      <Contact />
+    <>
+      <div className="App_" id="home">
+        <div className="App_wrapper-left">
+          <Sidebar />
+        </div>
+        <div className="App_wrapper-right">
+          <Heading />
+          <Collage />
+          <Services />
+          <Designers />
+          <Packages />
+          <Contact />
+        </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

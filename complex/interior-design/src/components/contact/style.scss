@@ -1,0 +1,40 @@
+@import "../../scss/components";
+
+.Contact_ {
+  padding: 0.01em 16px;
+  margin: 75px 0 0 0;
+
+  .Contact_title {
+    color: color(orange);
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  p {
+    margin: 0 !important;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .Contact_form-group {
+      display: flex;
+      flex-direction: column;
+      margin: 16px 0 0 0;
+
+      input {
+        border: 1px solid #ccc;
+        padding: 8px;
+      }
+    }
+
+    button {
+      background-color: color(orange);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin: 16px 0 16px 0;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import "../../scss/components";
+
+.Packages_ {
+  padding: 0.01em 16px;
+  margin: 75px 0 0;
+
+  .Packages_header-container {
+    h1 {
+      color: color(orange);
+      font-size: 48px;
+      font-weight: bold;
+      margin: 10px auto;
+    }
+  }
+  .Packages_info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Packages_basic {
+      margin: 0 8px 26px 0;
+    }
+
+    .Packages_pro {
+      margin: 0 8px 26px 8px;
+    }
+
+    .Packages_basic,
+    .Packages_pro {
+      width: 49.99999%;
+      background: color(gray);
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .button-li {
+          padding: 24px 16px;
+        }
+
+        li {
+          width: 100%;
+          text-align: center;
+          list-style: none;
+          padding: 16px;
+
+          h2 {
+            font-size: 30px;
+            margin: 10px auto;
+          }
+
+          span {
+            opacity: 0.6;
+          }
+        }
+
+        .Package_title {
+          background: color(dark);
+          color: white;
+          padding: 32px 16px;
+          font-size: 24px;
+        }
+
+        button {
+          background: white;
+          border: none;
+          padding: 12px 24px;
+          cursor: pointer;
+
+          &:hover {
+            background: black !important;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.orange {
+  background: color(orange) !important;
+  color: white;
+}
+
+.border {
+  border-bottom: 1px solid #ddd;
+}
