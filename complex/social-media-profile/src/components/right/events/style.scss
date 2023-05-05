@@ -1,0 +1,28 @@
+@import "../../../scss/component";
+
+.UpcomingEvents_ {
+  background: white;
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.01em 16px;
+
+    p {
+      width: 100%;
+      text-align: center;
+
+      button {
+        width: 100%;
+        background: color(info);
+        font: 15px font(open);
+        border: none;
+        padding: 8px 16px;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

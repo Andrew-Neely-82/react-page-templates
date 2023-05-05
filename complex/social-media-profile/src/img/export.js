@@ -1,0 +1,9 @@
+export { default as forest } from "./forest.jpg";
+export { default as lights } from "./lights.jpg";
+export { default as mountains } from "./mountains.jpg";
+export { default as nature } from "./nature.jpg";
+export { default as snow } from "./snow.jpg";
+export { default as avatar2 } from "./avatar2.png";
+export { default as avatar3 } from "./avatar3.png";
+export { default as avatar5 } from "./avatar5.png";
+export { default as avatar6 } from "./avatar6.png";

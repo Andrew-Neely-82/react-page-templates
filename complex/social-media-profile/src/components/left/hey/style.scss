@@ -1,0 +1,32 @@
+@import "../../../scss/component";
+
+.Hey_ {
+  position: relative;
+  border: 1px solid #ccc;
+  margin: 0 0 16px;
+
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: color(hey-x);
+    padding: 8px 16px;
+    cursor: pointer;
+
+    i {
+    }
+  }
+
+  .Hey_container {
+    background: color(hey-bg);
+    padding: 0.01em 16px;
+
+    .strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.close {
+  display: none;
+}

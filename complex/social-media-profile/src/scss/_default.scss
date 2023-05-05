@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./functions";
+
+* {
+  box-sizing: border-box;
+  font: 15px font(open);
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: auto !important;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+p {
+  margin: 15px auto;
+}

@@ -1,0 +1,29 @@
+@import "../../../scss/component";
+
+.Share_ {
+  background: white;
+  
+  .Share_container {
+    padding: 8px 16px;
+
+    h6 {
+      font: 16px font(segoe);
+      opacity: 0.6;
+      margin: 10px auto;
+    }
+
+    p {
+      font: 15px font(segoe);
+      border: 1px solid #ccc;
+      padding: 8px 16px;
+    }
+
+    button {
+      background: color(post);
+      color: white;
+      font: 15px font(open);
+      border: none;
+      padding: 8px 16px;
+    }
+  }
+}

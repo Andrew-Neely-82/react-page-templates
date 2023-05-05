@@ -1,0 +1,47 @@
+@import "../../../scss/component";
+
+.Events_ {
+  background: color(events);
+  color: white;
+
+  .Events_container {
+    padding: 8px 16px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ccc;
+      color: black;
+    }
+
+    i {
+      margin: 0 16px 0 0;
+    }
+
+    .Events_container_expand {
+      background: white;
+    }
+  }
+}
+
+.expand {
+  padding: 0;
+  margin: 0;
+}
+
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: white;
+  padding: 16px 24px 0 24px;
+  place-items: center; /* center the grid items */
+
+  img {
+    width: 100%;
+    padding: 0 8px;
+    margin: 0 0 16px 0;
+  }
+}
+
+.blue-background {
+  background-color: blue;
+}

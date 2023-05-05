@@ -1,0 +1,60 @@
+@import "../../../scss/component";
+
+.Posts_ {
+  .Posts_post {
+    padding: 16px;
+
+    img {
+      width: 60px;
+      border-radius: 100%;
+    }
+
+    span {
+    }
+
+    .image-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+
+      .image {
+        width: 100%;
+        border-radius: 0;
+        padding-bottom: 16px;
+      }
+
+      .image-lights {
+        padding-right: 8px;
+      }
+
+      .image-nature {
+        padding-left: 8px;
+      }
+    }
+
+    .image-container-angie {
+      display: flex;
+      .image-nature-angie {
+        width: 100%;
+        border-radius: 0 !important;
+      }
+    }
+  }
+}
+
+.like,
+.comment {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 0.25em;
+  cursor: pointer;
+}
+
+.like {
+  background: color(like);
+}
+
+.comment {
+  background: color(comment);
+}

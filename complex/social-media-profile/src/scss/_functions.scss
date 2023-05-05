@@ -1,0 +1,11 @@
+@function map($map, $key) {
+  @return map-get($map, $key);
+}
+
+@function color($val) {
+  @return map($color, $val);
+}
+
+@function font($val) {
+  @return map($font, $val), sans-serif;
+}

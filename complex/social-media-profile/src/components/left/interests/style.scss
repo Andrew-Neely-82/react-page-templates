@@ -1,0 +1,46 @@
+@import "../../../scss/component";
+
+$interests-classes: (
+  News: #303e45,
+  W3Schools: #3a4b53,
+  Labels: #435761,
+  Games-1: #4d636f,
+  Friends-1: #57707d,
+  Games-2: #607d8b,
+  Friends-2: #7d97a5,
+  Food: #9eb1bb,
+  Design: #becbd2,
+  Art: #dfe5e8,
+  Photos: #f5f7f8,
+);
+
+.Interests_ {
+  background: white;
+
+  .Interests_container {
+    padding: 0.01em 16px;
+
+    .Interests_tags {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      span {
+        font-size: 12px;
+        padding: 0 8px;
+        margin-right: 0.25em;
+        margin-bottom: 0.25em;
+
+        @each $class, $color in $interests-classes {
+          &.#{$class} {
+            background: $color;
+          }
+        }
+
+        &:not(.Food):not(.Design):not(.Art):not(.Photos) {
+          color: white;
+        }
+      }
+    }
+  }
+}

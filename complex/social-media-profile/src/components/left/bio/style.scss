@@ -1,0 +1,35 @@
+@import "../../../scss/component";
+
+.Bio_ {
+  background: white;
+
+  .Bio_container {
+    padding: 0.01em 16px;
+
+    h4 {
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      margin: 10px auto;
+    }
+
+    p {
+      text-align: center;
+
+      img {
+        height: 106px;
+        width: 106px;
+        border-radius: 100%;
+      }
+
+      i {
+        color: #607d8b;
+        margin-right: 16px;
+      }
+    }
+
+    .Bio_info {
+      text-align: start;
+    }
+  }
+}
