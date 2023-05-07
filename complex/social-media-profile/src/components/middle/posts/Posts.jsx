@@ -10,6 +10,7 @@ const Posts = () => {
       <br />
       <AngiePost />
       <br />
+      <br />
     </div>
   );
 };

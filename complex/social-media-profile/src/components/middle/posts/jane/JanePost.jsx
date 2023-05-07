@@ -6,9 +6,13 @@ const JanePost = () => {
       {jane.map((info) => {
         return (
           <>
-            <img src={info.img} alt={info.alt} />
-            <span>{info.span}</span>
-            <h4>{info.name}</h4>
+            <div className="Posts_post_container">
+              <img src={info.img} alt={info.alt} />
+              <div className="Posts_post_container_info">
+                <h4>{info.name}</h4>
+                <span>{info.span}</span>
+              </div>
+            </div>
             <br />
             <hr />
             <p>{info.p}</p>

@@ -1,12 +1,53 @@
 @import "../../../scss/component";
 
 .Posts_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   .Posts_post {
+    background: white;
     padding: 16px;
+
+    .Posts_post_container {
+      display: flex;
+      // width: 100%;
+      // height: 100%;
+      padding: 0;
+      margin: 0;
+
+      img {
+        width: 60px;
+        border-radius: 100%;
+        margin-right: 16px;
+        margin-bottom: 0;
+      }
+
+      .Posts_post_container_info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        h4 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100% !important;
+          font-size: 20px;
+        }
+
+        span {
+          min-height: 100%;
+          opacity: 0.6;
+        }
+      }
+    }
 
     img {
       width: 60px;
       border-radius: 100%;
+      margin-bottom: 16px;
     }
 
     span {
@@ -49,6 +90,11 @@
   padding: 8px 16px;
   margin-right: 0.25em;
   cursor: pointer;
+
+  &:hover {
+    background: #ccc;
+    color: black;
+  }
 }
 
 .like {

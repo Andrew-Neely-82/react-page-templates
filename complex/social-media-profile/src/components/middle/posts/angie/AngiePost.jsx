@@ -1,5 +1,4 @@
 import { angie } from "../info.js";
-import "../style.scss";
 
 const AngiePost = () => {
   return (
@@ -7,11 +6,16 @@ const AngiePost = () => {
       {angie.map((info) => {
         return (
           <>
-            <img src={info.avatar} alt={info.alt} />
-            <span>{info.span}</span>
-            <h4>{info.name}</h4>
+            <div className="Posts_post_container">
+              <img src={info.avatar} alt={info.alt} />
+              <div className="Posts_post_container_info">
+                <h4>{info.name}</h4>
+                <span>{info.span}</span>
+              </div>
+            </div>
             <br />
             <hr />
+            <p>{info.q}</p>
             {angie.map((info) => {
               return (
                 <>
