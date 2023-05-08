@@ -5,15 +5,15 @@ const UpcomingEvents = () => {
   return (
     <div className="UpcomingEvents_ round shadow">
       <div>
-        <p>Upcoming Events:</p>
+        <p className="title">Upcoming Events:</p>
         <img src={forest} alt="forest" />
-        <p>
+        <p className="holiday">
           <strong>Holiday</strong>
         </p>
-        <p>Friday 15:00</p>
-        <p>
+        <p className="time">Friday 15:00</p>
+        <div>
           <button class="w3-button w3-block w3-theme-l4">Info</button>
-        </p>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,25 @@
+.Moderate_ {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1em;
+
+  .Moderate_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+
+    .Moderate_container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      img {
+        height: 95%;
+        width: 95%;
+        border-radius: 10px;
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
     display: flex;
     max-width: 1400px;
     padding: 0.01em 16px;
-    margin-top: 80px;
+    padding-top: 80px;
 
     .App_content-left,
     .App_content-middle,
@@ -17,18 +17,18 @@
     }
 
     .App_content-left {
-      width: 24.99999%;
+      width: 25.99999%;
       padding: 0 8px 0 0;
     }
-    
+
     .App_content-middle {
-      width: 58.33333%;
+      width: 57.33333%;
       padding: 0 8px;
     }
-    
+
     .App_content-right {
-      width: 16.66666%;
-      padding: 0 0 0 8px  ;
+      width: 17.66666%;
+      padding: 0 0 0 8px;
     }
   }
 }
@@ -38,24 +38,66 @@
 }
 
 .shadow {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
+// * Media Queries for App
 @media screen and (max-width: 1000px) {
   .App_ {
+    flex-direction: column;
+
     .App_content {
-      .App_content-left,
-      .App_content-middle,
-      .App_content-right {
-      }
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
 
+      // * Left Section
       .App_content-left {
+        width: 100%;
+        padding: 0;
+
+        .Bio_,
+        .Events_ {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .Interests_,
+        .Hey_ {
+          display: none;
+        }
       }
 
+      // * Middle Section
       .App_content-middle {
+        display: flex;
+        width: 100%;
+
+        .Share_ {
+          width: 100%;
+        }
+
+        .Posts_ {
+          .Posts_post {
+            .image-container {
+              display: flex;
+              flex-direction: column;
+
+              img {
+                width: 100%;
+                padding: 0;
+              }
+            }
+          }
+        }
       }
 
+      // * Right Section
       .App_content-right {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1.5em;
       }
     }
   }

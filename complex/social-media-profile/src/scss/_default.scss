@@ -14,14 +14,34 @@ body {
 }
 
 hr {
-  border: 0;
-  border-top: 1px solid #eee;
+  border: 0 !important;
+  border-top: 1px solid #eee !important;
   margin: 20px 0;
   box-sizing: content-box;
-  height: 0;
-  overflow: visible;
 }
 
 p {
   margin: 15px auto;
+}
+
+::-webkit-scrollbar {
+  background: #f5f7f8 !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f7f8 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0 0 0 / 0.5);
+  // border-radius: 10em;
+  filter: drop-shadow(0 0 1em black);
+  z-index: 100;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0 0 0 / 0.75);
 }
