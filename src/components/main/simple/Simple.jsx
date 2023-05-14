@@ -23,9 +23,9 @@ const Simple = () => {
     <div className="Simple_">
       <h3>Simple React Templates</h3>
       <div className="Simple_wrapper">
-        {images.map((image) => {
+        {images.map((image, key) => {
           return (
-            <div className="Simple_container">
+            <div key={key} className="Simple_container">
               <p>{image.text}</p>
               <a href={image.href} target="_blank" rel="noreferrer">
                 <img src={image.link} alt={image.text} />

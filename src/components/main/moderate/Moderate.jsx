@@ -18,9 +18,9 @@ const Moderate = () => {
     <div className="Moderate_">
       <h3>Moderate React Templates</h3>
       <div className="Moderate_wrapper">
-        {images.map((image) => {
+        {images.map((image, key) => {
           return (
-            <div className="Moderate_container">
+            <div key={key} className="Moderate_container">
               <p>{image.text}</p>
               <a href={image.href} target="_blank" rel="noreferrer">
                 <img src={image.link} alt={image.text} />

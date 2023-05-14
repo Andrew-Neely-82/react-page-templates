@@ -18,9 +18,9 @@ const Complex = () => {
     <div className="Complex_">
       <h3>Complex React Templates</h3>
       <div className="Complex_wrapper">
-        {images.map((image) => {
+        {images.map((image, key) => {
           return (
-            <div className="Complex_container">
+            <div key={key} className="Complex_container">
               <p>{image.text}</p>
               <a href={image.href} target="_blank" rel="noreferrer">
                 <img src={image.link} alt={image.text} />
