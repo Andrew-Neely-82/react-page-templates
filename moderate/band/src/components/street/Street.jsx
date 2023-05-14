@@ -5,7 +5,7 @@ const Street = () => {
   return (
     <div className="Street_">
       {image.map((img) => {
-        return <img src={img.img} alt={img.alt} />;
+        return <img src={img.img} alt={img.alt} title={img.alt} />;
       })}
     </div>
   );

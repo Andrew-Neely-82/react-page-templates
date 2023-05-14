@@ -19,8 +19,10 @@ const About = () => {
         {people.map((info) => {
           return (
             <>
-              <p className="About_members_name">{info.name}</p>
-              <img src={info.img} alt={info.alt} title={info.alt} />
+              <div className="About_members_container">
+                <p className="About_members_name">{info.name}</p>
+                <img src={info.img} alt={info.alt} title={info.alt} />
+              </div>
             </>
           );
         })}
