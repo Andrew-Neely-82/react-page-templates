@@ -1,5 +1,0 @@
-@import "./variables";
-
-@function font($font) {
-  @return map-get($fonts, $font);
-}
