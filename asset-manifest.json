@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/social-media-templates-react/static/css/main.4ea9a92f.css",
-    "main.js": "/social-media-templates-react/static/js/main.a4c7d481.js",
-    "static/js/787.a18673bc.chunk.js": "/social-media-templates-react/static/js/787.a18673bc.chunk.js",
-    "index.html": "/social-media-templates-react/index.html",
-    "main.4ea9a92f.css.map": "/social-media-templates-react/static/css/main.4ea9a92f.css.map",
-    "main.a4c7d481.js.map": "/social-media-templates-react/static/js/main.a4c7d481.js.map",
-    "787.a18673bc.chunk.js.map": "/social-media-templates-react/static/js/787.a18673bc.chunk.js.map"
+    "main.css": "/react-page-templates/static/css/main.4ea9a92f.css",
+    "main.js": "/react-page-templates/static/js/main.21fa50eb.js",
+    "static/js/787.a18673bc.chunk.js": "/react-page-templates/static/js/787.a18673bc.chunk.js",
+    "index.html": "/react-page-templates/index.html",
+    "main.4ea9a92f.css.map": "/react-page-templates/static/css/main.4ea9a92f.css.map",
+    "main.21fa50eb.js.map": "/react-page-templates/static/js/main.21fa50eb.js.map",
+    "787.a18673bc.chunk.js.map": "/react-page-templates/static/js/787.a18673bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea9a92f.css",
-    "static/js/main.a4c7d481.js"
+    "static/js/main.21fa50eb.js"
   ]
 }
