@@ -8,8 +8,5 @@
     "main.21fa50eb.js.map": "/react-page-templates/static/js/main.21fa50eb.js.map",
     "787.a18673bc.chunk.js.map": "/react-page-templates/static/js/787.a18673bc.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.4ea9a92f.css",
-    "static/js/main.21fa50eb.js"
-  ]
+  "entrypoints": ["static/css/main.4ea9a92f.css", "static/js/main.21fa50eb.js"]
 }
